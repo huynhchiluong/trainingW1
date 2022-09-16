@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Draft.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+    <title>Draft</title>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+        integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-wrapper">
+        <div class="header container">
+            <div class="header__logo">
+                <a href="#"><img src="./assets/logo.svg" alt="logo"></a>
+            </div>
+            <div class="header__nav">
+                <ul class="header__nav__menu">
+                    <li class="header__nav__menu__dropdown">
+                        <a href="#">Nhà bán <i class="fas fa-angle-down"></i></a>
+                    </li>
+                    <li class="header__nav__menu__dropdown">
+                        <a href="#">Nhà thuê <i class="fas fa-angle-down"></i></a>
+                    </li>
+                    <li>
+                        <a href="#">Dự án <i class="fas fa-angle-down"></i></a>
+                    </li>
+                    <li class="header__nav__menu__dropdown">
+                        <a href="#">Nhu cầu <i class="fas fa-angle-down"></i></a>
+                    </li>
+                    <li class="header__nav__menu__item"><a href="#">Bản đồ</a></li>
+                    <li class="header__nav__menu__item"><a href="#">Định giá</a></li>
+                    <li class="header__nav__menu__item"><a href="#">CRM</a></li>
+                    <li class="header__nav__menu__dropdown">
+                        <a href="#">Tin tức <i class="fas fa-angle-down"></i></a>
+                    </li>
+                </ul>
+                <div class="header__header__nav__actions">
+                    <div class="header__nav__actions__btn">
+                        <button class="btn btn--outline"><span>Mạng lưới</span></button>
+                        <button class="btn btn--rounded">
+                            <span>Đăng tin</span>
+                            <i class="fas fa-caret-down"></i>
+                        </button>
+                    </div>
+                    <div class="header__nav__actions__bell">
+                        <img src="./assets/bell-icon.svg" />
+                        <span class="header__nav__actions__bell__count">5</span>
+                    </div>
+                    <div class="header__nav__actions__user">
+                        <img class="header__nav__actions__user__img" src="./assets/user-avt.svg" alt="user img" />
+                        <span>Duy Bảo <i class="fas fa-caret-down"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="search container">
+        <ul class="search__filter">
+            <li class="search__filter__item search__filter__item--active">Đang bán</li>
+            <li class="search__filter__item ">Cho thuê</li>
+            <li class="search__filter__item ">Dự án</li>
+            <li class="search__filter__item ">Cần mua</li>
+            <li class="search__filter__item ">Cần thuê</li>
+        </ul>
+        <div class="search__bar">
+            <div class="search__bar__input">
+                <input type="text"
+                    placeholder="Nhập địa điểm hoặc từ khoá (Ví dụ: Vinhomes hoặc 138 Lý Thường Kiệt hoặc số điện thoại người đ...)">
+            </div>
+            <div class="search__bar__search-advanced">
+                <span>Tìm kiếm nâng cao</span>
+                <i class="fas fa-caret-down"></i>
+            </div>
+            <button class="btn">Tìm kiếm</button>
+        </div>
+
+    </div>
+    <div class="notfound container">
+        <div class="notfound__img">
+            <img src="./assets/not-found.svg" alt="not found image">
+        </div>
+        <h4 class="notfound__title">Không tìm thấy kết quả phù hợp với tiêu chí của bạn</h4>
+        <p class="notfound__direct">Hãy thử đổi bộ lọc tìm kiếm hoặc từ khoá tìm kiếm</p>
+    </div>
+</body>
+
+</html>
